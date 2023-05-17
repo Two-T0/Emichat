@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#">Login Student </a>|
+        <a href="#">Login Professor</a>
+    </header>
+    <div id="container1">
+        <h1>
+            <img src="logo.jpeg" alt="" width="150px" height="150px"><br>
+            Emi-chat <br>
+            (Student Login)
+        </h1>
+        <form id="formulaire">
+            <table>
+                <tr>
+                    <th align="right" style="padding: 15px;">Nom :</th>
+                    <th style="padding: 15px;"><input type="text" placeholder="Votre nom..."><br><hr></th>
+                </tr>
+                <tr>
+                    <th align="right" style="padding: 15px;">Matricule :</th>
+                    <th style="padding: 15px;"><input type="number" placeholder="Votre numero matricule"><br><hr></th>
+                </tr>
+                <tr>
+                    <th colspan="2" style="padding: 15px;">
+                        <a href="izy.html"><input onclick="showDialogue()" value="Connexion" type="button" id="put"></a>
+                    </th>
+                    <script>
+                        function showDialogue(){
+                            console.log("Weeeee");
+                            alert('Votre inscription a bien été aboutit');
+                        }
+                    </script>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div id="container2" class="hidden">
+        <h1>
+            <img src="logo.jpeg" alt="" width="150px" height="150px"><br>
+            Emi-chat <br>
+            (Professor Login)
+        </h1>
+        <form id="formulaire">
+            <table>
+                <tr>
+                    <th align="right" style="padding: 15px;">Nom :</th>
+                    <th style="padding: 15px;"><input type="text" placeholder="Votre nom..."><br><hr></th>
+                </tr>
+                <tr>
+                    <th align="right" style="padding: 15px;">Code prof :</th>
+                    <th style="padding: 15px;"><input type="number" placeholder="Votre numero matricule"><br><hr></th>
+                </tr>
+                <tr>
+                </tr>
+                <th colspan="2" style="padding: 15px;">
+                    <a href="izy2.html"><input onclick="showDialogue()" value="Connexion" type="button" id="put"></a>
+                </th>
+                <script>
+                    function showDialogue(){
+                        console.log("Weeeee");
+                        alert('Votre inscription a bien été aboutit');
+                    }
+                </script>
+            </table>
+        </form>
+    </div>
+    <script type="text/JavaScript" src="index.js"></script>
+   
+</body>
+</html>

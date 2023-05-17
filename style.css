@@ -1,0 +1,83 @@
+body{
+    padding : 0;
+    margin : 0;
+    font-family: sans-serif;
+}
+header{
+    margin-top: 10px;
+    padding : 60px;
+    text-align: center;
+    border: solid transparent;
+    background-color: gray;
+    color: whitesmoke;
+}
+header a{
+    color :rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition : 0.4s;
+    font-size: 30px;
+    color: whitesmoke;
+}
+header a:hover{
+    font-weight: bolder;
+    color :rgb(5, 163, 255);
+    transition: 0.4s;
+}
+#container1, #container2{
+    margin-left: 600px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    overflow: auto;
+}
+input{
+    border: none;
+    text-align: center;
+    padding-top: 5px;
+    width : 250px;
+    height : 30px;
+    background-color: transparent;
+}
+#put{
+    border: solid  1px;
+    border-radius: 20px;
+    width: 140px;
+    height: 35px;
+}
+table{
+    border-radius: 15px;
+    padding: 30px;
+    background-color: whitesmoke;
+    opacity: 75%;
+}
+h1{
+    display: inline-block;
+    margin-left: 120px;
+    text-align: center;
+}
+
+
+input[type="submit"]{
+    color : rgb(0, 140, 255) ;
+    border : 1px solid rgb(0, 140, 255);
+    padding-bottom: 25px;
+    background: none;
+    transition: 0,4s;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 140, 255);
+    color : #fff;
+    transition : 0.4s;
+}
+.active{
+    font-weight: bolder;
+    color :rgb(5, 163, 255);
+}
+.hidden{
+    display : none;
+}
+.visible{
+    display:block;
+}

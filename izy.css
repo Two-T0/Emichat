@@ -1,0 +1,169 @@
+/*personnel*/
+#sect1{
+    float: left;
+    width: 530px;
+    height: 790px;
+    border: solid transparent;
+    position: fixed;
+    overflow-x: hidden;
+    left: 0px;
+    top: 0px;
+}
+#O123{
+    width: 480px;
+    border: solid transparent;
+    position: fixed;
+}
+#div1{
+    float: left;
+    width: 580px;
+    height: 180px;
+    background-image: url("Mode.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid transparent;
+}
+#lipo{
+    float: left;
+    margin-left: 15px;
+}
+#imga{
+    border-radius: 200px;
+    border: solid 2px;
+}
+#div2{
+    margin-top: 40px;
+}
+#sota{
+    float: none;
+    margin-top: 140px;
+    border: solid transparent;
+    text-align: center;
+}
+#avia{
+    margin-left: 110px;
+}
+/*rehetra*/
+header{
+    position: fixed;
+    background-color: whitesmoke;
+    height: 170px;
+    border-radius: 5px;
+    top: 0px;
+    border: solid transparent;
+    width: 1130px;
+}
+#headera{
+    position: fixed;
+    background-color: whitesmoke;
+    height: 100px;
+    border-radius: 5px;
+    top: 0px;
+}
+#midera{
+    width: 210px;
+    margin-top: 20px;
+    border: solid transparent;
+}
+#sect2{
+    float: right;
+    width: 1130px;                                                  
+}
+#titre{
+    float: left;
+    margin-left: 30px;
+    font-size: 35px;
+}
+#titre2{
+    float: right;
+}
+#put{
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 40px;
+    height: 35px;
+    background-color:rgb(128, 128, 128);
+    color: whitesmoke;
+}
+#put1{
+    margin: 50px 50px;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    background-color:rgb(128, 128, 128);
+    color: whitesmoke;
+}
+#pato{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    background-color:rgb(128, 128, 128);
+    color: whitesmoke;
+}
+#titre3{
+    float: left;
+    margin-top: 10px;
+    margin-right: 17px;
+}
+#ao{
+    margin-left: 190px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(51, 49, 49);
+}
+#ao1{
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(51, 49, 49);
+}
+#ao:hover{
+    color: #000060;
+}
+/*middle*/
+#zay{
+    margin-left: 250px;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 500px;
+    border-radius: 50px;
+}
+#sect3{
+    margin-top: 210px;
+    left: 0px;
+}
+#lany{
+    float: left;
+    margin-left: 190px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#lany:hover{
+    color: #000060;
+}
+#magi{
+    float: right;
+    border-radius: 200px;
+    border: solid 1px;
+}
+#misy{
+    float: none;
+    border: solid transparent;
+    height: 820px;
+    margin-top: 20px;
+}
+#po{
+    background-color: rgb(191, 191, 235);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+#matsiro{
+    width: 1130px;
+    border: solid transparent;
+    margin-left: 530px;
+}
+#case{
+    width: 1130px;
+}
